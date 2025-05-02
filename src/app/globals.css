@@ -1,0 +1,978 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  height: 510px;
+  margin-top: 77px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
+.home_logined {
+  flex-direction: column;
+  display: flex;
+  justify-items: left;
+  text-align: left;
+  justify-content: center;
+  height: 510px;
+  margin-top: 77px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #83c0ac;
+}
+
+.setting_home {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 610px;
+  margin-top: 77px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #78d37c;
+}
+
+.home_banner{
+  width: 1000px;
+  height: 500px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.home_banner_picture {
+  border-radius: 10px;
+}
+
+.banner_button {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.banner_title{
+  margin-bottom: 10px;
+  color:#ffffff;
+}
+
+.banner_button_p{
+  font-size: larger;
+}
+
+.banner_detail{ 
+  margin-top: -120px;
+  margin-left: 30px;
+  background-color: #ffffff;
+  border-color: #D3D3D3;
+  border-width: 2px;
+}
+
+.home_detail {
+  height: 424px;
+  width: 424px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: solid;
+  border-color: #D3D3D3;
+  border-width: 2px;
+}
+
+.home_detail_title{
+  display: flex;
+  justify-content: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.div_icons {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: solid;
+  border-color: #D3D3D3;
+  border-width: 2px;
+  margin-right: 5px;
+}
+
+.home_detail_info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.home_detail_p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.container_notice {
+  max-width: 1200px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.video {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  justify-items: left;
+  text-align: left;
+  display: flex;
+}
+
+.video_section_title {
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.video_section_subtitle {
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.profile {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  justify-items: left;
+  text-align: left;
+  display: flex;
+}
+
+.profile_section_title {
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.profile_section_subtitle {
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.profile_link {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.profile_link_a {
+  display: flex;
+  align-items: center;
+}
+
+.profile_a {
+  height: 150px;
+}
+
+.profile_p_woowakgood {
+  width: 100%;
+  margin: 150px 0 0 0px;
+  cursor: default;
+}
+
+.profile_p_ine {
+  width: 100%;
+  margin: 150px 0 0 0px;
+  cursor: default;
+}
+
+.profile_p_jingburger {
+  width: 100%;
+  margin: 150px 0 0 0px;
+  cursor: default;
+}
+
+.profile_p_lilpa {
+  width: 100%;
+  margin: 150px 0 0 0px;
+  cursor: default;
+}
+
+.profile_p_jururu {
+  width: 100%;
+  margin: 150px 0 0 0px;
+  cursor: default;
+}
+
+.profile_p_gosegu {
+  width: 100%;
+  margin: 150px 0 0 0px;
+  cursor: default;
+}
+
+.profile_p_viichan {
+  width: 100%;
+  margin: 150px 0 0 0px;
+  cursor: default;
+}
+
+.profile_button_woowakgood {
+  background-image: url(https://waktaverse-videos.vercel.app/artist/woowakgood_150.png);
+  border-radius: 100%;
+  background-size: contain;
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.profile_button_woowakgood:hover {
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #1645328a;
+  transition: 0.5s;
+}
+
+.profile_button_ine {
+  background-image: url(https://waktaverse-videos.vercel.app/artist/ine.png);
+  border-radius: 100%;
+  background-size: contain;
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.profile_button_ine:hover {
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #892be28a;
+  transition: 0.5s;
+}
+
+.profile_button_jingburger {
+  background-image: url(https://waktaverse-videos.vercel.app/artist/jingburger.png);
+  border-radius: 100%;
+  background-size: contain;
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.profile_button_jingburger:hover {
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #f0a9578a;
+  transition: 0.5s;
+}
+
+.profile_button_lilpa {
+  background-image: url(https://waktaverse-videos.vercel.app/artist/lilpa.png);
+  border-radius: 100%;
+  background-size: contain;
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.profile_button_lilpa:hover {
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #0000808a;
+  transition: 0.5s;
+}
+
+.profile_button_jururu {
+  background-image: url(https://waktaverse-videos.vercel.app/artist/jururu.png);
+  border-radius: 100%;
+  background-size: contain;
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.profile_button_jururu:hover {
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #ff008c8a;
+  transition: 0.5s;
+}
+
+.profile_button_gosegu {
+  background-image: url(https://waktaverse-videos.vercel.app/artist/gosegu.png);
+  border-radius: 100%;
+  background-size: contain;
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.profile_button_gosegu:hover {
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #467ec68a;
+  transition: 0.5s;
+}
+
+.profile_button_viichan {
+  background-image: url(https://waktaverse-videos.vercel.app/artist/viichan.png);
+  border-radius: 100%;
+  background-size: contain;
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.profile_button_viichan:hover {
+  margin-left: 110px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: #95c1008a;
+  transition: 0.5s;
+}
+
+.artist_page {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  height: 610px;
+  width: 100%;
+  margin-top: 77px;
+  background-color: #ffffff;
+}
+
+.artist_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 580px;
+  width: 300px;
+  background-color: #ffffff3f;
+  border: 2px solid #6e6e6e;
+  box-shadow: 0px 0px 10px 7px #00000025;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-top: 40px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.artist_banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 7px 7px 0 0;
+  z-index: -1;
+}
+
+.artist_img {
+  margin-top: 22px;
+}
+
+.artist_menu {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.artist_channels {
+  display: flex;
+  align-items: center;
+  width: auto;
+  min-width: 600px;
+}
+
+.channel_list_container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  width: auto;
+}
+
+.channel_list {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  height: 60px;
+  min-width: 200px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 7px #00000025;
+  text-align: left;
+  white-space: nowrap;
+  flex-grow: 1;
+  width: auto;
+  position: relative;
+}
+
+.channel_list img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: absolute;
+  left: -0px;
+  object-fit: cover;
+}
+
+.channel_name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+.artist_a {
+  margin-top: 10px;
+}
+
+.music {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  justify-items: left;
+  text-align: left;
+  display: flex;
+}
+
+.music_section_title {
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.music_section_subtitle {
+  text-align: left;
+  margin-left: 55px;
+  margin-top: 5px;
+}
+
+.music_playlist {
+  cursor: pointer;
+  text-align: center;
+  float: right;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 35px;
+  margin-bottom: auto;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6.3px 2px #00000025
+}
+
+.music_playlist p {
+  margin-top: 12px;
+  margin-bottom: 10%;
+}
+
+.music_section {
+  float: left;
+}
+
+.music_inline {
+  width: 100%;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.footer-section {
+  justify-items: left;
+  background-color: white;
+  width: 100%;
+  height: 257px;
+}
+
+.footer-logo {
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+
+.madeby {
+  font-size: 15px;
+  color: #646464;
+  margin-left: 60px;
+}
+
+.info_service {
+  font-size: 14px;
+  color: #646464;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.info_contact_mail {
+  font-size: 14px;
+  color: #646464;
+  margin-left: 60px;
+}
+
+.info_rander {
+  font-size: 14px;
+  color: #646464;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 20px;
+}
+
+.search-bar {
+  border-radius: 20px;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.page-links {
+  display: flex;
+}
+
+.page-links a {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.page-links a.active {
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #32CD32;
+}
+
+.search_button {
+  border: 0;
+  background-color: transparent;
+}
+
+.login-btn {
+  background-color: #32CD32;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.login-home {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 15px;
+  padding: 10px 90px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.login-btn_google {
+  width: 312px;
+  height: 40px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 0.5px gray;
+}
+
+.login-btn_naver {
+  width: 312px;
+  height: 40px;
+  background-color: #32CD32;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 70px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-btn_discord {
+  width: 312px;
+  height: 38px;
+  background-color: #1900ff;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 70px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-btn-home {
+  background-color: #32CD32;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.login_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: opacity 0.5s ease;
+}
+
+.login_page {
+  z-index: 21;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+
+.login_page.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.login_close {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-left: 100%;
+  margin-bottom: auto;
+}
+
+.profile-section {
+  position: relative;
+}
+
+.login_about {
+  padding-bottom: 10px;
+}
+
+.login_notice{
+  display: flex;
+  background-color: gainsboro;
+  border-radius: 10px;
+  text-align: left;
+  margin: 0 auto;
+  width: 300px;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.notice_header {
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.notice_icon {
+  padding-top: 2.3px;
+  padding-right: 5px;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 100;
+  width: 250px;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+  text-align: left;
+}
+
+.dropdown-item:hover {
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+.banner-container {
+  background-color: #78d37c;
+  width: 100%;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.banner-container_logined {
+  background-color: #83c0ac;
+  width: 100%;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.banner-container_setting {
+  background-color: #78d37c;
+  width: 100%;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.banner-section {
+  background-color: #78d37c;
+  width: auto;
+  height: auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.playlist-container {
+  display: flex;
+  gap: 20px;
+}
+
+.playlist-card {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 220px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.playlist-card-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+
+.highlight_login {
+  color: #2da834;
+}
+
+.google_icon {
+  padding-top: 5px;
+}
+
+.policy_text {
+  font-size: 13px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.policy_link {
+  text-decoration: underline;
+}
+
+.swiper {
+  width: 1000px;
+}
+
+.home_suggest_videos {
+  display: flex;
+  justify-items: left;
+  text-align: left;
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.bannner_section_subtitle {
+  margin-top: 5px;
+}
+
+.suggest_video {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+  }
+  .home_banner_picture {
+    width: 500px;
+    height: 290px;
+    order: 1;
+  }
+  .banner-container {
+    background-color: #78d37c;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+    order: 2;
+  }
+  .login_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.5s ease;
+  }
+  .login_page {
+    z-index: 21;
+    position : absolute;
+    bottom : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #fff;
+    transition: all 0.5s ease;
+  }
+  
+  .login_page.show {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .login_close {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-left: 100%;
+    margin-bottom: auto;
+  }
+}
