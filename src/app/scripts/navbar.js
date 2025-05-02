@@ -9,7 +9,7 @@ export default function Navbar() {
     <>
       <nav className="navbar">
         <div className="logo">
-          <a href='/'><img src="/waktaverse_videos_new_logo.png" width="50px" alt="Waktaverse Videos 로고"/></a>
+          <img src="/waktaverse_videos_new_logo.png" width="50px" alt="Waktaverse Videos 로고"/>
         </div>
         <div className="right-section">
         </div>
