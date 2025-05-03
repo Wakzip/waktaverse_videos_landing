@@ -18,6 +18,7 @@ export const metadata = {
   title: 'Waktaverse Videosㅣ함께 만들어 가는 왁타버스 생활',
   description: '모든 왁타버스 영상을 내 손 안에.',
   openGraph: {
+    site_name: 'Waktaverse Videos',
     title: 'Waktaverse Videosㅣ함께 만들어 가는 왁타버스 생활',
     description: '모든 왁타버스 영상을 내 손 안에.',
     images: [
@@ -25,7 +26,9 @@ export const metadata = {
         url: 'https://videos.wakzip.kr/metadata.png',
       },
     ],
+    link: 'https://videos.wakzip.kr',
   },
+  keywords: 'Waktaverse, 왁타버스, 왁타버스 비디오, Waktaverse Videos',
 };
 
 export default function RootLayout({ children }) {
