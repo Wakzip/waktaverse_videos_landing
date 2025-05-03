@@ -979,7 +979,7 @@ a {
     height: 450px;
     width: 424px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 10px;
     border: solid;
     border-color: #D3D3D3;
@@ -1027,7 +1027,6 @@ a {
     height: 424px;
     width: 400px;
     margin-top: 30px;
-    margin-left: 0px;
     border-radius: 10px;
     border: solid;
     border-color: #D3D3D3;
@@ -1039,6 +1038,7 @@ a {
     justify-content: left;
     margin-top: 5px;
     margin-left: 5px;
+    height: auto;
   }
   
   .div_icons {

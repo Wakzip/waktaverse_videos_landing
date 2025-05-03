@@ -33,6 +33,7 @@ export default function HomePage() {
               </div>
             </div>
         </div>
+      </div>
             <footer>
               <div className='footer-section'>
                 <img src="/waktaverse_videos_new_logo_gray_text.png" alt="로고" className='footer-logo'/>
@@ -41,7 +42,5 @@ export default function HomePage() {
                 <p className='info_contact_mail'><a href='mailto:contact@wakzip.kr?subject=[문의]?body=문의를 작성하시고 전송하시면 Team Wakzip 서비스 팀으로 자동 전송됩니다.'>[문의] contact@wakzip.kr</a></p>
               </div>
             </footer>
-            
-      </div>
         </>
       )}
