@@ -917,7 +917,7 @@ a {
   margin-right: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .home {
     display: flex;
     flex-direction: column;
