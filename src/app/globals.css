@@ -917,7 +917,11 @@ a {
   margin-right: auto;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
+=======
+@media (max-width: 1024px) {
+>>>>>>> 1ab7b0e (🪲스마트폰 페이지 최적화 완료)
   .home {
     display: flex;
     flex-direction: column;
@@ -931,12 +935,20 @@ a {
     display: flex;
     justify-items: center;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> 1ab7b0e (🪲스마트폰 페이지 최적화 완료)
   }
 
   .home_banner{
     display: flex;
     justify-items: center;
+<<<<<<< HEAD
     width: 440px;
+=======
+    width: 400px;
+>>>>>>> 1ab7b0e (🪲스마트폰 페이지 최적화 완료)
     height: 300px;
     margin-top: 30px;
     border-radius: 10px;
@@ -944,6 +956,7 @@ a {
   
   .home_banner_picture {
     border-radius: 10px;
+<<<<<<< HEAD
     width: 440px;
     height: 186.55px;
   }
@@ -991,5 +1004,89 @@ a {
     justify-content: left;
     margin-top: 5px;
     margin-left: 5px;
+=======
+    width: 400px;
+    height: 186.55px;
+    margin: auto 0 0 auto;
+  }
+  
+  .banner_button {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .banner_title{
+    margin-bottom: 5px;
+    color:#ffffff;
+    font-size: 17px;
+  }
+  
+  .banner_button_p{
+    font-size: 12px;
+  }
+  
+  .banner_detail{ 
+    margin-top: -80px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-color: #D3D3D3;
+    border-width: 2px;
+  }
+  
+  .home_detail {
+    height: 424px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-radius: 10px;
+    border: solid;
+    border-color: #D3D3D3;
+    border-width: 2px;
+  }
+  
+  .home_detail_title{
+    display: flex;
+    justify-content: left;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  .div_icons {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    border-color: #D3D3D3;
+    border-width: 2px;
+    margin-right: 5px;
+  }
+  
+  .home_detail_info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .home_detail_p {
+    margin-top: 10px;
+  }  
+
+  .footer-section {
+    justify-items: center;
+    background-color: white;
+    text-align: center;
+    margin-left: -30px;
+  }
+  
+  .footer-logo {
+    width: 250px;
+>>>>>>> 1ab7b0e (🪲스마트폰 페이지 최적화 완료)
   }
 }
