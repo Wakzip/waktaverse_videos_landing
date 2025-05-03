@@ -36,6 +36,9 @@ export default function RootLayout({ children }) {
     <>
       <Navbar />
         <html lang="en">
+        <head>
+        <meta name="naver-site-verification" content="32a3c512748c75a608bb78c2a8d2440623a7641c" />
+        </head>
           <body className={Noto.className}>
             {children}
           </body>
