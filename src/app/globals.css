@@ -917,11 +917,7 @@ a {
   margin-right: auto;
 }
 
-<<<<<<< HEAD
 @media (max-width: 768px) {
-=======
-@media (max-width: 1024px) {
->>>>>>> 1ab7b0e (🪲스마트폰 페이지 최적화 완료)
   .home {
     display: flex;
     flex-direction: column;
@@ -935,20 +931,12 @@ a {
     display: flex;
     justify-items: center;
     flex-direction: column;
-<<<<<<< HEAD
-=======
-    text-align: center;
->>>>>>> 1ab7b0e (🪲스마트폰 페이지 최적화 완료)
   }
 
   .home_banner{
     display: flex;
     justify-items: center;
-<<<<<<< HEAD
     width: 440px;
-=======
-    width: 400px;
->>>>>>> 1ab7b0e (🪲스마트폰 페이지 최적화 완료)
     height: 300px;
     margin-top: 30px;
     border-radius: 10px;
@@ -956,7 +944,6 @@ a {
   
   .home_banner_picture {
     border-radius: 10px;
-<<<<<<< HEAD
     width: 440px;
     height: 186.55px;
   }
@@ -1004,7 +991,6 @@ a {
     justify-content: left;
     margin-top: 5px;
     margin-left: 5px;
-=======
     width: 400px;
     height: 186.55px;
     margin: auto 0 0 auto;
@@ -1087,6 +1073,5 @@ a {
   
   .footer-logo {
     width: 250px;
->>>>>>> 1ab7b0e (🪲스마트폰 페이지 최적화 완료)
   }
 }
