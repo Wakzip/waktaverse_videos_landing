@@ -944,7 +944,8 @@ a {
   
   .home_banner_picture {
     border-radius: 10px;
-    width: 440;
+    width: 440px;
+    height: 186.55px;
   }
   
   .banner_button {
