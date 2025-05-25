@@ -14,11 +14,11 @@ export default function HomePage() {
         <div className='home'>
           <div className='home_banner'>
             <div className='home_banner_picture'>
-              <img src="/misty_rainbow_banner.png"alt="Misty Rainbow 배너"className='home_banner_picture'/>
-              <div className='banner_detail'>
-                <h2 className='banner_title'>[Misty Rainbow] 발매</h2>
-                <Link href={'https://www.youtube.com/watch?v=DJLa8QYUtmQ'}><button className='banner_button'><p className='banner_button_p'>MV 보러가기</p></button></Link>
-              </div>
+              <img src="/stargazers_banner.png"alt="STARGAZERS 배너"className='home_banner_picture'/>
+                <div className='banner_detail'>
+                  <h2 className='banner_title'>[STARGAZERS] 발매</h2>
+                  <Link href={'https://www.youtube.com/watch?v=nz2_gNQDiVM'}><button className='banner_button'><p className='banner_button_p'>MV 보러가기</p></button></Link>
+                </div>
             </div>
           </div>
           <div className='home_detail'>
